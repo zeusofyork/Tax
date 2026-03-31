@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  @apply bg-gray-50 text-gray-800;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display", serif;
+}
